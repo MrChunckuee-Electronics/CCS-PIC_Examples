@@ -5,14 +5,14 @@
  *******************************************************************************
  * FileName:        main.c
  * Processor:       PIC16F887
- * Complier:        XC8 v1.30
- * Author:          Pedro Sánchez (MrChunckuee)
+ * Complier:        PIC C v5.025
+ * Author:          Pedro SÃ¡nchez (MrChunckuee)
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
  * Description:     El LED enciende y apaga cada 2 segundos
  *******************************************************************************
  * Rev.         Date            Comment
- *   v1.00      30/10/2017      Creación del firmware
+ *   v1.00      30/10/2017      CreaciÃ³n del firmware
  ******************************************************************************/
  
 //Directivas del microcontrolador
