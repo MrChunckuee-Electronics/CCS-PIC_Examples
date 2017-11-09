@@ -28,8 +28,8 @@
 
 //Funcion para inicializacion del PIC
 void MCU_Init(){
-   set_tris_A(0x00); //Declara como salida el puerto A
-   PORTA = 0x00;     //Limpiamos el puerto A
+    set_tris_A(0x00); //Declara como salida el puerto A
+    PORTA = 0x00;     //Limpiamos el puerto A
 }
 
 void main(){
