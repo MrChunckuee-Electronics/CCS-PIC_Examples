@@ -6,15 +6,14 @@
  * FileName:        main.c
  * Processor:       PIC16F887
  * Complier:        PIC C v5.025
- * Author:          Pedro S·nchez (MrChunckuee)
+ * Author:          Pedro S√°nchez (MrChunckuee)
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
  * Description:     Con este ejemplo mostraremos en la LCD el valor leido en AN0
  *******************************************************************************
  * Rev.         Date           Comment
- *   v1.00      25/11/2017     CreaciÛn del firmware
+ *   v1.00      25/11/2017     Creaci√≥n del firmware
  ******************************************************************************/
- 
  //Direvtivas del microcontrolador
 #include <16f887.h>  //Libreria del PIC
 #device adc=10 //Para usar el adc de 10bits
@@ -30,7 +29,7 @@ float voltajeADC;
  
  void main(){         
    set_tris_a(0xFF);//Puerto A como entrada 
-   SETUP_ADC_PORTS(sAN0);  // determina que el puerto RA0/AN0 ser· analÛgico
+   SETUP_ADC_PORTS(sAN0);  // determina que el puerto RA0/AN0 ser√° anal√≥gico
    SET_ADC_CHANNEL(0);
    setup_adc(ADC_CLOCK_DIV_32); //desactivamos comparadores del puerto A   
    setup_comparator(NC_NC_NC_NC);    
