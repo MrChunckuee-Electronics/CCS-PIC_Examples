@@ -11,9 +11,9 @@
  * Email:           mrchunckuee.psr@gmail.com
  * Description:     Con este ejemplo giraremos un motor paso a paso, dependiendo 
  *                  de los interruptores conectados en RA0, RA1 y RA2.  
- *                  Ademas tenemos un boton de ENTER para indicarle 
- *                  al motor que es momento de moverse y mostrar en la LCD 
- *                  un mensaje. Considerar que el motor PAP es de 7.5° por paso.
+ *                  Ademas tenemos un boton de ENTER para indicarle al motor 
+ *                  que es momento de moverse y mostrar en la LCD un mensaje 
+ *                  Considerar que el motor PAP es de 7.5° por paso.
  *******************************************************************************
  * Rev.         Date           Comment
  *   v0.00      03/12/2017     Creación del firmware
