@@ -6,17 +6,17 @@
  * FileName:        main.c
  * Processor:       PIC16F887
  * Complier:        PIC C v5.025
- * Author:          Pedro Sánchez (MrChunckuee)
+ * Author:          Pedro SÃ¡nchez (MrChunckuee)
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
  * Description:     Con este ejemplo giraremos un motor paso a paso, dependiendo 
  *                  de los interruptores conectados en RA0, RA1 y RA2.  
- *                  Ademas mostraremos tenemos un boton de ENTER para indicarle 
- *                  al motor que es momento de moverse y mostrar en la LCD 
- *                  un mensaje. Considerar que el motor PAP es de 7.5° por paso.
+ *                  Ademas tenemos un boton de ENTER para indicarle al motor 
+ *                  que es momento de moverse y mostrar en la LCD un mensaje 
+ *                  Considerar que el motor PAP es de 7.5Â° por paso.
  *******************************************************************************
  * Rev.         Date           Comment
- *   v0.00      03/12/2017     Creación del firmware
+ *   v0.00      03/12/2017     CreaciÃ³n del firmware
  ******************************************************************************/
 //Declaracion de directivas
 #include <16f887.h> //Libreria del PIC
